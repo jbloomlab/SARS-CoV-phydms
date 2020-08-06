@@ -1,0 +1,125 @@
+2020-07-07 10:54:35,040 - INFO - Beginning execution of phydms in directory /Users/skhilton/Desktop/SARS-phydms
+
+2020-07-07 10:54:35,040 - INFO - Progress is being logged to phydms_comprehensive/ExpCM_expr_gammaomega_log.log
+
+2020-07-07 10:54:35,040 - INFO - Version information:
+	Time and date: Tue Jul  7 10:54:34 2020
+	Platform: Darwin-19.3.0-x86_64-i386-64bit
+	Python version: 3.7.7 (default, Mar 26 2020, 10:32:53)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+	phydms version: 2.4.0
+	Bio version: 1.77
+	cython version: 0.29.19
+	numpy version: 1.18.1
+	scipy version: 1.4.1
+	matplotlib version: 3.2.1
+	natsort version: 7.0.1
+	sympy version: 1.6
+	six version: 1.14.0
+	pandas version: 1.0.3
+	pyvolve version: 1.0.1
+	statsmodels version: 0.11.1
+	weblogolib version: 3.5.0
+	PyPDF2 version: 1.26.0
+
+2020-07-07 10:54:35,040 - INFO - Parsed the following arguments:
+	alignment = results/RBD.fasta
+	tree = phydms_comprehensive/RAxML_tree.newick
+	model = ('ExpCM', 'results/expr.csv')
+	outprefix = phydms_comprehensive/ExpCM_expr_gammaomega
+	brlen = optimize
+	gammaomega = True
+	gammabeta = False
+	omegabysite = True
+	omegabysite_fixsyn = False
+	diffprefsbysite = False
+	diffprefsprior = ('invquadratic', 150.0, 0.5)
+	fitphi = False
+	randprefs = False
+	avgprefs = False
+	divpressure = None
+	ncpus = 1
+	fitprefsmethod = 2
+	ncats = 4
+	minbrlen = 1e-06
+	minpref = 0.002
+	seed = 1
+	initparams = None
+	profile = False
+	opt_details = False
+	nograd = False
+	omega_random_effects_likelihood = True
+	REL_ncats = 50
+
+2020-07-07 10:54:35,040 - INFO - Random number seed: 1
+
+2020-07-07 10:54:35,040 - INFO - Reading alignment from results/RBD.fasta
+2020-07-07 10:54:35,071 - INFO - Read 9 aligned sequences from results/RBD.fasta, each consisting of 201 codons.
+
+2020-07-07 10:54:35,071 - INFO - The model will be an ExpCM informed by site-specific amino-acid preferences in results/expr.csv
+2020-07-07 10:54:35,360 - INFO - Successfully read site-specific amino-acid preferences for all 201 sites.
+
+2020-07-07 10:54:35,361 - INFO - Nucleotide frequency parameters phi will be set so stationary state matches alignment nucleotide frequencies of A = 0.273, C = 0.193, G = 0.186, T = 0.349
+
+2020-07-07 10:54:35,734 - INFO - Omega will be drawn from 4 gamma-distributed categories.
+
+2020-07-07 10:54:37,401 - INFO - Reading tree from phydms_comprehensive/RAxML_tree.newick
+2020-07-07 10:54:37,402 - INFO - Tree has 9 tips.
+2020-07-07 10:54:37,403 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
+
+2020-07-07 10:54:37,403 - INFO - Initializing TreeLikelihood..
+2020-07-07 10:54:42,124 - INFO - TreeLikelihood initialized.
+2020-07-07 10:54:42,124 - INFO - Maximizing log likelihood (initially -2772.50).
+2020-07-07 10:54:42,124 - INFO - Branch lengths will be optimized individually.
+2020-07-07 10:59:40,422 - INFO - Maximization complete:
+	Step 1: optimized parameters, loglik went from -2772.50 to -2527.63 (16 iterations, 21 function evals)
+	Step 2: optimized branches, loglik went from -2527.63 to -2524.61 (20 iterations, 28 function evals)
+	Step 3: optimized parameters, loglik went from -2524.61 to -2524.41 (12 iterations, 14 function evals)
+	Step 4: optimized branches, loglik went from -2524.41 to -2524.39 (5 iterations, 9 function evals)
+	Step 5: optimized parameters, loglik went from -2524.39 to -2524.39 (2 iterations, 4 function evals)
+2020-07-07 10:59:40,424 - INFO - Optimized log likelihood is -2524.39.
+2020-07-07 10:59:40,424 - INFO - Writing log likelihood to phydms_comprehensive/ExpCM_expr_gammaomega_loglikelihood.txt
+2020-07-07 10:59:40,429 - INFO - Model parameters after optimization:
+	alpha_omega = 0.365238
+	beta = 1.57662
+	beta_omega = 0.850202
+	kappa = 2.31069
+	phiA = 0.270358
+	phiC = 0.175032
+	phiG = 0.155355
+2020-07-07 10:59:40,429 - INFO - Writing model parameters to phydms_comprehensive/ExpCM_expr_gammaomega_modelparams.txt
+2020-07-07 10:59:40,430 - INFO - Writing the optimized tree to phydms_comprehensive/ExpCM_expr_gammaomega_tree.newick
+
+2020-07-07 10:59:40,439 - INFO - 
+Fitting a different omega to each site to detect diversifying selection.
+2020-07-07 10:59:40,440 - INFO - Will fit different synonymous rate for each site.
+2020-07-07 10:59:40,440 - INFO - Fitting with 1 CPUs...
+2020-07-07 11:00:14,942 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
+  pvalues, 1)
+
+2020-07-07 11:00:14,964 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
+  qvalues = scipy.minimum(qvalues, qvalues_sign)
+
+2020-07-07 11:00:14,964 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
+  pvalues, 1)
+
+2020-07-07 11:00:14,964 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
+  qvalues = scipy.minimum(qvalues, qvalues_sign)
+
+2020-07-07 11:00:14,964 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:486: DeprecationWarning: scipy.argsort is deprecated and will be removed in SciPy 2.0.0, use numpy.argsort instead
+  sortindex = scipy.argsort(qvalues)
+
+2020-07-07 11:00:14,965 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:487: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
+  qvalues = scipy.take(qvalues, sortindex)
+
+2020-07-07 11:00:14,965 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:488: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
+  omega_strs = scipy.take(omega_strs, sortindex)
+
+2020-07-07 11:00:14,966 - INFO - Completed fitting the site-specific omega values.
+2020-07-07 11:00:14,966 - INFO - Writing results to phydms_comprehensive/ExpCM_expr_gammaomega_omegabysite.txt
+
+2020-07-07 11:00:15,472 - INFO - Distribution of omega values will be integrated with 50 discrete categories.
+2020-07-07 11:00:15,485 - INFO - Constructing a substitution model for each discrete category.
+2020-07-07 11:01:17,883 - INFO - There are 7 category(ies) whose omega value is greater than one.
+2020-07-07 11:01:17,885 - INFO - Computing posterior probabilities of positive selection for each site.
+2020-07-07 11:01:17,912 - INFO - Computing false discovery rate.
+2020-07-07 11:01:18,020 - INFO - Successful completion of phydms

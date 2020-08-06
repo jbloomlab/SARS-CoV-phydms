@@ -1,0 +1,118 @@
+2020-07-07 14:55:30,801 - INFO - Beginning execution of phydms in directory /Users/skhilton/Desktop/SARS-phydms
+
+2020-07-07 14:55:30,802 - INFO - Progress is being logged to phydms_comprehensive_0.5/averaged_ExpCM_expr_log.log
+
+2020-07-07 14:55:30,802 - INFO - Version information:
+	Time and date: Tue Jul  7 14:55:30 2020
+	Platform: Darwin-19.3.0-x86_64-i386-64bit
+	Python version: 3.7.7 (default, Mar 26 2020, 10:32:53)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+	phydms version: 2.4.0
+	Bio version: 1.77
+	cython version: 0.29.19
+	numpy version: 1.18.1
+	scipy version: 1.4.1
+	matplotlib version: 3.2.1
+	natsort version: 7.0.1
+	sympy version: 1.6
+	six version: 1.14.0
+	pandas version: 1.0.3
+	pyvolve version: 1.0.1
+	statsmodels version: 0.11.1
+	weblogolib version: 3.5.0
+	PyPDF2 version: 1.26.0
+
+2020-07-07 14:55:30,802 - INFO - Parsed the following arguments:
+	alignment = results/RBD_min0.5.fasta
+	tree = phydms_comprehensive_0.5/RAxML_tree.newick
+	model = ('ExpCM', 'results/expr.csv')
+	outprefix = phydms_comprehensive_0.5/averaged_ExpCM_expr
+	brlen = optimize
+	gammaomega = False
+	gammabeta = False
+	omegabysite = True
+	omegabysite_fixsyn = False
+	diffprefsbysite = False
+	diffprefsprior = ('invquadratic', 150.0, 0.5)
+	fitphi = False
+	randprefs = False
+	avgprefs = True
+	divpressure = None
+	ncpus = 1
+	fitprefsmethod = 2
+	ncats = 4
+	minbrlen = 1e-06
+	minpref = 0.002
+	seed = 1
+	initparams = None
+	profile = False
+	opt_details = False
+	nograd = False
+	omega_random_effects_likelihood = False
+	REL_ncats = 50
+
+2020-07-07 14:55:30,802 - INFO - Random number seed: 1
+
+2020-07-07 14:55:30,802 - INFO - Reading alignment from results/RBD_min0.5.fasta
+2020-07-07 14:55:30,877 - INFO - Read 29 aligned sequences from results/RBD_min0.5.fasta, each consisting of 201 codons.
+
+2020-07-07 14:55:30,877 - INFO - The model will be an ExpCM informed by site-specific amino-acid preferences in results/expr.csv
+2020-07-07 14:55:30,877 - INFO - Preferences will be averaged across sites.
+2020-07-07 14:55:31,107 - INFO - Successfully read site-specific amino-acid preferences for all 201 sites.
+
+2020-07-07 14:55:31,108 - INFO - Nucleotide frequency parameters phi will be set so stationary state matches alignment nucleotide frequencies of A = 0.274, C = 0.195, G = 0.187, T = 0.344
+
+2020-07-07 14:55:31,436 - INFO - Reading tree from phydms_comprehensive_0.5/RAxML_tree.newick
+2020-07-07 14:55:31,438 - INFO - Tree has 29 tips.
+2020-07-07 14:55:31,441 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
+
+2020-07-07 14:55:31,442 - INFO - Initializing TreeLikelihood..
+2020-07-07 14:55:35,037 - INFO - TreeLikelihood initialized.
+2020-07-07 14:55:35,037 - INFO - Maximizing log likelihood (initially -7304.45).
+2020-07-07 14:55:35,037 - INFO - Branch lengths will be optimized individually.
+2020-07-07 14:59:46,536 - INFO - Maximization complete:
+	Step 1: optimized parameters, loglik went from -7304.45 to -6460.64 (24 iterations, 34 function evals)
+	Step 2: optimized branches, loglik went from -6460.64 to -6456.86 (33 iterations, 39 function evals)
+	Step 3: optimized parameters, loglik went from -6456.86 to -6456.84 (2 iterations, 5 function evals)
+	Step 4: optimized branches, loglik went from -6456.84 to -6456.83 (13 iterations, 18 function evals)
+	Step 5: optimized parameters, loglik went from -6456.83 to -6456.82 (2 iterations, 5 function evals)
+2020-07-07 14:59:46,538 - INFO - Optimized log likelihood is -6456.82.
+2020-07-07 14:59:46,538 - INFO - Writing log likelihood to phydms_comprehensive_0.5/averaged_ExpCM_expr_loglikelihood.txt
+2020-07-07 14:59:46,539 - INFO - Model parameters after optimization:
+	beta = 1.55825
+	kappa = 2.16786
+	omega = 0.0724892
+	phiA = 0.29134
+	phiC = 0.188957
+	phiG = 0.179003
+2020-07-07 14:59:46,539 - INFO - Writing model parameters to phydms_comprehensive_0.5/averaged_ExpCM_expr_modelparams.txt
+2020-07-07 14:59:46,540 - INFO - Writing the optimized tree to phydms_comprehensive_0.5/averaged_ExpCM_expr_tree.newick
+
+2020-07-07 14:59:46,542 - INFO - 
+Fitting a different omega to each site to detect diversifying selection.
+2020-07-07 14:59:46,543 - INFO - Will fit different synonymous rate for each site.
+2020-07-07 14:59:46,543 - INFO - Fitting with 1 CPUs...
+2020-07-07 15:00:54,661 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
+  pvalues, 1)
+
+2020-07-07 15:00:54,662 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
+  qvalues = scipy.minimum(qvalues, qvalues_sign)
+
+2020-07-07 15:00:54,662 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
+  pvalues, 1)
+
+2020-07-07 15:00:54,663 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
+  qvalues = scipy.minimum(qvalues, qvalues_sign)
+
+2020-07-07 15:00:54,663 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:486: DeprecationWarning: scipy.argsort is deprecated and will be removed in SciPy 2.0.0, use numpy.argsort instead
+  sortindex = scipy.argsort(qvalues)
+
+2020-07-07 15:00:54,663 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:487: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
+  qvalues = scipy.take(qvalues, sortindex)
+
+2020-07-07 15:00:54,663 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:488: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
+  omega_strs = scipy.take(omega_strs, sortindex)
+
+2020-07-07 15:00:54,663 - INFO - Completed fitting the site-specific omega values.
+2020-07-07 15:00:54,663 - INFO - Writing results to phydms_comprehensive_0.5/averaged_ExpCM_expr_omegabysite.txt
+
+2020-07-07 15:00:54,664 - INFO - Successful completion of phydms
