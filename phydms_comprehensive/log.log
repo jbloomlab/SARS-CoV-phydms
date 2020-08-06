@@ -1,11 +1,11 @@
-2020-07-07 10:44:37,936 - INFO - Beginning execution of phydms_comprehensive in directory /Users/skhilton/Desktop/SARS-phydms
+2020-08-06 11:03:27,683 - INFO - Beginning execution of phydms_comprehensive in directory /Users/skhilton/Desktop/SARS-phydms
 
-2020-07-07 10:44:37,936 - INFO - Progress is being logged to phydms_comprehensive/log.log
+2020-08-06 11:03:27,697 - INFO - Progress is being logged to phydms_comprehensive/log.log
 
-2020-07-07 10:44:37,936 - INFO - Version information:
-	Time and date: Tue Jul  7 10:44:36 2020
+2020-08-06 11:03:27,698 - INFO - Version information:
+	Time and date: Thu Aug  6 11:03:26 2020
 	Platform: Darwin-19.3.0-x86_64-i386-64bit
-	Python version: 3.7.7 (default, Mar 26 2020, 10:32:53)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+	Python version: 3.7.3 (default, Mar 27 2019, 16:54:48)  [Clang 4.0.1 (tags/RELEASE_401/final)]
 	phydms version: 2.4.0
 	Bio version: 1.77
 	cython version: 0.29.19
@@ -21,7 +21,7 @@
 	weblogolib version: 3.5.0
 	PyPDF2 version: 1.26.0
 
-2020-07-07 10:44:37,937 - INFO - Parsed the following command-line arguments:
+2020-08-06 11:03:27,698 - INFO - Parsed the following command-line arguments:
 	outprefix = phydms_comprehensive/
 	alignment = results/RBD.fasta
 	prefsfiles = ['results/bind.csv', 'results/expr.csv']
@@ -40,122 +40,122 @@
 	omega_random_effects_likelihood = True
 	REL_ncats = 50
 
-2020-07-07 10:44:37,937 - INFO - Checking that the alignment results/RBD.fasta is valid...
-2020-07-07 10:44:37,967 - INFO - Valid alignment specifying 9 sequences of length 603.
+2020-08-06 11:03:27,698 - INFO - Checking that the alignment results/RBD.fasta is valid...
+2020-08-06 11:03:27,767 - INFO - Valid alignment specifying 23 sequences of length 603.
 
-2020-07-07 10:44:37,967 - INFO - Tree not specified.
-2020-07-07 10:44:37,981 - INFO - Inferring tree with RAxML using command raxmlHPC
-2020-07-07 10:44:38,348 - INFO - RAxML inferred tree is now named phydms_comprehensive/RAxML_tree.newick
-2020-07-07 10:44:38,358 - INFO - Removed the following existing files that have names that match the names of output files that will be created: phydms_comprehensive/modelcomparison.md, phydms_comprehensive/YNGKP_M0_log.log, phydms_comprehensive/YNGKP_M0_tree.newick, phydms_comprehensive/YNGKP_M0_loglikelihood.txt, phydms_comprehensive/YNGKP_M0_modelparams.txt, phydms_comprehensive/YNGKP_M5_log.log, phydms_comprehensive/YNGKP_M5_tree.newick, phydms_comprehensive/YNGKP_M5_loglikelihood.txt, phydms_comprehensive/YNGKP_M5_modelparams.txt, phydms_comprehensive/ExpCM_bind_log.log, phydms_comprehensive/ExpCM_bind_tree.newick, phydms_comprehensive/ExpCM_bind_loglikelihood.txt, phydms_comprehensive/ExpCM_bind_modelparams.txt, phydms_comprehensive/averaged_ExpCM_bind_log.log, phydms_comprehensive/averaged_ExpCM_bind_tree.newick, phydms_comprehensive/averaged_ExpCM_bind_loglikelihood.txt, phydms_comprehensive/averaged_ExpCM_bind_modelparams.txt, phydms_comprehensive/ExpCM_expr_log.log, phydms_comprehensive/ExpCM_expr_tree.newick, phydms_comprehensive/ExpCM_expr_loglikelihood.txt, phydms_comprehensive/ExpCM_expr_modelparams.txt, phydms_comprehensive/averaged_ExpCM_expr_log.log, phydms_comprehensive/averaged_ExpCM_expr_tree.newick, phydms_comprehensive/averaged_ExpCM_expr_loglikelihood.txt, phydms_comprehensive/averaged_ExpCM_expr_modelparams.txt
+2020-08-06 11:03:27,767 - INFO - Tree not specified.
+2020-08-06 11:03:27,780 - INFO - Inferring tree with RAxML using command raxmlHPC
+2020-08-06 11:03:29,276 - INFO - RAxML inferred tree is now named phydms_comprehensive/RAxML_tree.newick
+2020-08-06 11:03:29,313 - INFO - Removed the following existing files that have names that match the names of output files that will be created: phydms_comprehensive/modelcomparison.md, phydms_comprehensive/YNGKP_M0_log.log, phydms_comprehensive/YNGKP_M0_tree.newick, phydms_comprehensive/YNGKP_M0_loglikelihood.txt, phydms_comprehensive/YNGKP_M0_modelparams.txt, phydms_comprehensive/YNGKP_M0_omegabysite.txt, phydms_comprehensive/YNGKP_M5_log.log, phydms_comprehensive/YNGKP_M5_tree.newick, phydms_comprehensive/YNGKP_M5_loglikelihood.txt, phydms_comprehensive/YNGKP_M5_modelparams.txt, phydms_comprehensive/YNGKP_M5_omegabysite.txt, phydms_comprehensive/YNGKP_M5_omegabycategory.csv, phydms_comprehensive/YNGKP_M5_posteriorprobabilities.csv, phydms_comprehensive/ExpCM_bind_log.log, phydms_comprehensive/ExpCM_bind_tree.newick, phydms_comprehensive/ExpCM_bind_loglikelihood.txt, phydms_comprehensive/ExpCM_bind_modelparams.txt, phydms_comprehensive/ExpCM_bind_omegabysite.txt, phydms_comprehensive/ExpCM_bind_gammaomega_log.log, phydms_comprehensive/ExpCM_bind_gammaomega_tree.newick, phydms_comprehensive/ExpCM_bind_gammaomega_loglikelihood.txt, phydms_comprehensive/ExpCM_bind_gammaomega_modelparams.txt, phydms_comprehensive/ExpCM_bind_gammaomega_omegabysite.txt, phydms_comprehensive/ExpCM_bind_gammaomega_omegabycategory.csv, phydms_comprehensive/ExpCM_bind_gammaomega_posteriorprobabilities.csv, phydms_comprehensive/averaged_ExpCM_bind_log.log, phydms_comprehensive/averaged_ExpCM_bind_tree.newick, phydms_comprehensive/averaged_ExpCM_bind_loglikelihood.txt, phydms_comprehensive/averaged_ExpCM_bind_modelparams.txt, phydms_comprehensive/averaged_ExpCM_bind_omegabysite.txt, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_log.log, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_tree.newick, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_loglikelihood.txt, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_modelparams.txt, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_omegabysite.txt, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_omegabycategory.csv, phydms_comprehensive/averaged_ExpCM_bind_gammaomega_posteriorprobabilities.csv, phydms_comprehensive/ExpCM_expr_log.log, phydms_comprehensive/ExpCM_expr_tree.newick, phydms_comprehensive/ExpCM_expr_loglikelihood.txt, phydms_comprehensive/ExpCM_expr_modelparams.txt, phydms_comprehensive/ExpCM_expr_omegabysite.txt, phydms_comprehensive/ExpCM_expr_gammaomega_log.log, phydms_comprehensive/ExpCM_expr_gammaomega_tree.newick, phydms_comprehensive/ExpCM_expr_gammaomega_loglikelihood.txt, phydms_comprehensive/ExpCM_expr_gammaomega_modelparams.txt, phydms_comprehensive/ExpCM_expr_gammaomega_omegabysite.txt, phydms_comprehensive/ExpCM_expr_gammaomega_omegabycategory.csv, phydms_comprehensive/ExpCM_expr_gammaomega_posteriorprobabilities.csv, phydms_comprehensive/averaged_ExpCM_expr_log.log, phydms_comprehensive/averaged_ExpCM_expr_tree.newick, phydms_comprehensive/averaged_ExpCM_expr_loglikelihood.txt, phydms_comprehensive/averaged_ExpCM_expr_modelparams.txt, phydms_comprehensive/averaged_ExpCM_expr_omegabysite.txt, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_log.log, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_tree.newick, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_loglikelihood.txt, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_modelparams.txt, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_omegabysite.txt, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_omegabycategory.csv, phydms_comprehensive/averaged_ExpCM_expr_gammaomega_posteriorprobabilities.csv
 
-2020-07-07 10:44:38,358 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model YNGKP_M0. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick YNGKP_M0 phydms_comprehensive/YNGKP_M0 --brlen optimize --minbrlen 1e-06 --omegabysite --ncpus 1
+2020-08-06 11:03:29,318 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model YNGKP_M0. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick YNGKP_M0 phydms_comprehensive/YNGKP_M0 --brlen optimize --minbrlen 1e-06 --omegabysite --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model YNGKP_M5. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick YNGKP_M5 phydms_comprehensive/YNGKP_M5 --brlen optimize --minbrlen 1e-06 --omegabysite --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model YNGKP_M5. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick YNGKP_M5 phydms_comprehensive/YNGKP_M5 --brlen optimize --minbrlen 1e-06 --omegabysite --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_bind. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/ExpCM_bind --brlen optimize --minbrlen 1e-06 --omegabysite --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_bind. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/ExpCM_bind --brlen optimize --minbrlen 1e-06 --omegabysite --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_bind_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/ExpCM_bind_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_bind_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/ExpCM_bind_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_bind. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/averaged_ExpCM_bind --brlen optimize --minbrlen 1e-06 --omegabysite --avgprefs --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_bind. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/averaged_ExpCM_bind --brlen optimize --minbrlen 1e-06 --omegabysite --avgprefs --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_bind_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/averaged_ExpCM_bind_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --avgprefs --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_bind_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/bind.csv phydms_comprehensive/averaged_ExpCM_bind_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --avgprefs --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_expr. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/ExpCM_expr --brlen optimize --minbrlen 1e-06 --omegabysite --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_expr. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/ExpCM_expr --brlen optimize --minbrlen 1e-06 --omegabysite --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_expr_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/ExpCM_expr_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model ExpCM_expr_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/ExpCM_expr_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_expr. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/averaged_ExpCM_expr --brlen optimize --minbrlen 1e-06 --omegabysite --avgprefs --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_expr. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/averaged_ExpCM_expr --brlen optimize --minbrlen 1e-06 --omegabysite --avgprefs --ncpus 1
 
-2020-07-07 10:44:38,359 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_expr_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/averaged_ExpCM_expr_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --avgprefs --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
+2020-08-06 11:03:29,319 - INFO - Starting analysis to optimize tree in phydms_comprehensive/RAxML_tree.newick using model averaged_ExpCM_expr_gammaomega. The command is: phydms results/RBD.fasta phydms_comprehensive/RAxML_tree.newick ExpCM_results/expr.csv phydms_comprehensive/averaged_ExpCM_expr_gammaomega --brlen optimize --minbrlen 1e-06 --omegabysite --gammaomega --ncats 4 --avgprefs --omega_random_effects_likelihood --REL_ncats 50 --ncpus 1
 
-2020-07-07 10:45:25,468 - INFO - Analysis completed for YNGKP_M0
-2020-07-07 10:45:25,470 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_log.log
-2020-07-07 10:45:25,470 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_tree.newick
-2020-07-07 10:45:25,470 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_loglikelihood.txt
-2020-07-07 10:45:25,470 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_modelparams.txt
-2020-07-07 10:45:25,470 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_omegabysite.txt
-2020-07-07 10:45:25,470 - INFO - Analysis successful for YNGKP_M0
+2020-08-06 11:05:40,644 - INFO - Analysis completed for YNGKP_M0
+2020-08-06 11:05:40,646 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_log.log
+2020-08-06 11:05:40,646 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_tree.newick
+2020-08-06 11:05:40,646 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_loglikelihood.txt
+2020-08-06 11:05:40,646 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_modelparams.txt
+2020-08-06 11:05:40,647 - INFO - Found expected output file phydms_comprehensive/YNGKP_M0_omegabysite.txt
+2020-08-06 11:05:40,647 - INFO - Analysis successful for YNGKP_M0
 
-2020-07-07 10:46:01,568 - INFO - Analysis completed for YNGKP_M5
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_log.log
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_tree.newick
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_loglikelihood.txt
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_modelparams.txt
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_omegabysite.txt
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_omegabycategory.csv
-2020-07-07 10:46:01,571 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_posteriorprobabilities.csv
-2020-07-07 10:46:01,571 - INFO - Analysis successful for YNGKP_M5
+2020-08-06 11:08:26,035 - INFO - Analysis completed for YNGKP_M5
+2020-08-06 11:08:26,038 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_log.log
+2020-08-06 11:08:26,038 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_tree.newick
+2020-08-06 11:08:26,039 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_loglikelihood.txt
+2020-08-06 11:08:26,039 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_modelparams.txt
+2020-08-06 11:08:26,039 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_omegabysite.txt
+2020-08-06 11:08:26,039 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_omegabycategory.csv
+2020-08-06 11:08:26,039 - INFO - Found expected output file phydms_comprehensive/YNGKP_M5_posteriorprobabilities.csv
+2020-08-06 11:08:26,039 - INFO - Analysis successful for YNGKP_M5
 
-2020-07-07 10:47:07,734 - INFO - Analysis completed for ExpCM_bind
-2020-07-07 10:47:07,737 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_log.log
-2020-07-07 10:47:07,737 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_tree.newick
-2020-07-07 10:47:07,737 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_loglikelihood.txt
-2020-07-07 10:47:07,737 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_modelparams.txt
-2020-07-07 10:47:07,737 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_omegabysite.txt
-2020-07-07 10:47:07,738 - INFO - Analysis successful for ExpCM_bind
+2020-08-06 11:09:50,242 - INFO - Analysis completed for ExpCM_bind
+2020-08-06 11:09:50,245 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_log.log
+2020-08-06 11:09:50,245 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_tree.newick
+2020-08-06 11:09:50,246 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_loglikelihood.txt
+2020-08-06 11:09:50,246 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_modelparams.txt
+2020-08-06 11:09:50,246 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_omegabysite.txt
+2020-08-06 11:09:50,246 - INFO - Analysis successful for ExpCM_bind
 
-2020-07-07 10:49:16,124 - INFO - Analysis completed for averaged_ExpCM_bind
-2020-07-07 10:49:16,127 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_log.log
-2020-07-07 10:49:16,127 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_tree.newick
-2020-07-07 10:49:16,127 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_loglikelihood.txt
-2020-07-07 10:49:16,127 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_modelparams.txt
-2020-07-07 10:49:16,127 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_omegabysite.txt
-2020-07-07 10:49:16,127 - INFO - Analysis successful for averaged_ExpCM_bind
+2020-08-06 11:15:04,988 - INFO - Analysis completed for averaged_ExpCM_bind
+2020-08-06 11:15:04,991 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_log.log
+2020-08-06 11:15:04,992 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_tree.newick
+2020-08-06 11:15:04,992 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_loglikelihood.txt
+2020-08-06 11:15:04,993 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_modelparams.txt
+2020-08-06 11:15:04,993 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_omegabysite.txt
+2020-08-06 11:15:04,993 - INFO - Analysis successful for averaged_ExpCM_bind
 
-2020-07-07 10:52:46,671 - INFO - Analysis completed for ExpCM_bind_gammaomega
-2020-07-07 10:52:46,674 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_log.log
-2020-07-07 10:52:46,675 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_tree.newick
-2020-07-07 10:52:46,675 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_loglikelihood.txt
-2020-07-07 10:52:46,678 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_modelparams.txt
-2020-07-07 10:52:46,678 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_omegabysite.txt
-2020-07-07 10:52:46,679 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_omegabycategory.csv
-2020-07-07 10:52:46,680 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_posteriorprobabilities.csv
-2020-07-07 10:52:46,680 - INFO - Analysis successful for ExpCM_bind_gammaomega
+2020-08-06 11:28:43,020 - INFO - Analysis completed for averaged_ExpCM_bind_gammaomega
+2020-08-06 11:28:43,026 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_log.log
+2020-08-06 11:28:43,027 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_tree.newick
+2020-08-06 11:28:43,027 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_loglikelihood.txt
+2020-08-06 11:28:43,027 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_modelparams.txt
+2020-08-06 11:28:43,027 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_omegabysite.txt
+2020-08-06 11:28:43,027 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_omegabycategory.csv
+2020-08-06 11:28:43,027 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_posteriorprobabilities.csv
+2020-08-06 11:28:43,027 - INFO - Analysis successful for averaged_ExpCM_bind_gammaomega
 
-2020-07-07 10:54:31,949 - INFO - Analysis completed for ExpCM_expr
-2020-07-07 10:54:31,953 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_log.log
-2020-07-07 10:54:31,953 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_tree.newick
-2020-07-07 10:54:31,953 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_loglikelihood.txt
-2020-07-07 10:54:31,953 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_modelparams.txt
-2020-07-07 10:54:31,953 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_omegabysite.txt
-2020-07-07 10:54:31,953 - INFO - Analysis successful for ExpCM_expr
+2020-08-06 11:29:08,094 - INFO - Analysis completed for ExpCM_bind_gammaomega
+2020-08-06 11:29:08,095 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_log.log
+2020-08-06 11:29:08,096 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_tree.newick
+2020-08-06 11:29:08,096 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_loglikelihood.txt
+2020-08-06 11:29:08,096 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_modelparams.txt
+2020-08-06 11:29:08,096 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_omegabysite.txt
+2020-08-06 11:29:08,096 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_omegabycategory.csv
+2020-08-06 11:29:08,096 - INFO - Found expected output file phydms_comprehensive/ExpCM_bind_gammaomega_posteriorprobabilities.csv
+2020-08-06 11:29:08,096 - INFO - Analysis successful for ExpCM_bind_gammaomega
 
-2020-07-07 10:54:41,988 - INFO - Analysis completed for averaged_ExpCM_bind_gammaomega
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_log.log
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_tree.newick
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_loglikelihood.txt
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_modelparams.txt
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_omegabysite.txt
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_omegabycategory.csv
-2020-07-07 10:54:41,990 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_bind_gammaomega_posteriorprobabilities.csv
-2020-07-07 10:54:41,990 - INFO - Analysis successful for averaged_ExpCM_bind_gammaomega
+2020-08-06 11:32:54,604 - INFO - Analysis completed for ExpCM_expr
+2020-08-06 11:32:54,606 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_log.log
+2020-08-06 11:32:54,607 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_tree.newick
+2020-08-06 11:32:54,607 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_loglikelihood.txt
+2020-08-06 11:32:54,607 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_modelparams.txt
+2020-08-06 11:32:54,607 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_omegabysite.txt
+2020-08-06 11:32:54,607 - INFO - Analysis successful for ExpCM_expr
 
-2020-07-07 10:56:43,367 - INFO - Analysis completed for averaged_ExpCM_expr
-2020-07-07 10:56:43,370 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_log.log
-2020-07-07 10:56:43,370 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_tree.newick
-2020-07-07 10:56:43,370 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_loglikelihood.txt
-2020-07-07 10:56:43,370 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_modelparams.txt
-2020-07-07 10:56:43,370 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_omegabysite.txt
-2020-07-07 10:56:43,370 - INFO - Analysis successful for averaged_ExpCM_expr
+2020-08-06 11:37:59,403 - INFO - Analysis completed for averaged_ExpCM_expr
+2020-08-06 11:37:59,406 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_log.log
+2020-08-06 11:37:59,406 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_tree.newick
+2020-08-06 11:37:59,407 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_loglikelihood.txt
+2020-08-06 11:37:59,407 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_modelparams.txt
+2020-08-06 11:37:59,407 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_omegabysite.txt
+2020-08-06 11:37:59,407 - INFO - Analysis successful for averaged_ExpCM_expr
 
-2020-07-07 11:01:19,104 - INFO - Analysis completed for ExpCM_expr_gammaomega
-2020-07-07 11:01:19,108 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_log.log
-2020-07-07 11:01:19,109 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_tree.newick
-2020-07-07 11:01:19,109 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_loglikelihood.txt
-2020-07-07 11:01:19,109 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_modelparams.txt
-2020-07-07 11:01:19,109 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_omegabysite.txt
-2020-07-07 11:01:19,109 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_omegabycategory.csv
-2020-07-07 11:01:19,109 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_posteriorprobabilities.csv
-2020-07-07 11:01:19,109 - INFO - Analysis successful for ExpCM_expr_gammaomega
+2020-08-06 11:48:16,768 - INFO - Analysis completed for ExpCM_expr_gammaomega
+2020-08-06 11:48:16,774 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_log.log
+2020-08-06 11:48:16,774 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_tree.newick
+2020-08-06 11:48:16,775 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_loglikelihood.txt
+2020-08-06 11:48:16,775 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_modelparams.txt
+2020-08-06 11:48:16,775 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_omegabysite.txt
+2020-08-06 11:48:16,776 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_omegabycategory.csv
+2020-08-06 11:48:16,776 - INFO - Found expected output file phydms_comprehensive/ExpCM_expr_gammaomega_posteriorprobabilities.csv
+2020-08-06 11:48:16,776 - INFO - Analysis successful for ExpCM_expr_gammaomega
 
-2020-07-07 11:01:39,169 - INFO - Analysis completed for averaged_ExpCM_expr_gammaomega
-2020-07-07 11:01:39,169 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_log.log
-2020-07-07 11:01:39,170 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_tree.newick
-2020-07-07 11:01:39,170 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_loglikelihood.txt
-2020-07-07 11:01:39,170 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_modelparams.txt
-2020-07-07 11:01:39,170 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_omegabysite.txt
-2020-07-07 11:01:39,170 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_omegabycategory.csv
-2020-07-07 11:01:39,171 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_posteriorprobabilities.csv
-2020-07-07 11:01:39,171 - INFO - Analysis successful for averaged_ExpCM_expr_gammaomega
+2020-08-06 11:51:03,178 - INFO - Analysis completed for averaged_ExpCM_expr_gammaomega
+2020-08-06 11:51:03,180 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_log.log
+2020-08-06 11:51:03,180 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_tree.newick
+2020-08-06 11:51:03,181 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_loglikelihood.txt
+2020-08-06 11:51:03,181 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_modelparams.txt
+2020-08-06 11:51:03,181 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_omegabysite.txt
+2020-08-06 11:51:03,181 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_omegabycategory.csv
+2020-08-06 11:51:03,181 - INFO - Found expected output file phydms_comprehensive/averaged_ExpCM_expr_gammaomega_posteriorprobabilities.csv
+2020-08-06 11:51:03,181 - INFO - Analysis successful for averaged_ExpCM_expr_gammaomega
 
-2020-07-07 11:01:40,205 - INFO - Successful completion of phydms_comprehensive
+2020-08-06 11:51:04,246 - INFO - Successful completion of phydms_comprehensive

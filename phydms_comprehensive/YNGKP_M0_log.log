@@ -1,11 +1,11 @@
-2020-07-07 10:44:40,905 - INFO - Beginning execution of phydms in directory /Users/skhilton/Desktop/SARS-phydms
+2020-08-06 11:03:31,765 - INFO - Beginning execution of phydms in directory /Users/skhilton/Desktop/SARS-phydms
 
-2020-07-07 10:44:40,905 - INFO - Progress is being logged to phydms_comprehensive/YNGKP_M0_log.log
+2020-08-06 11:03:31,765 - INFO - Progress is being logged to phydms_comprehensive/YNGKP_M0_log.log
 
-2020-07-07 10:44:40,905 - INFO - Version information:
-	Time and date: Tue Jul  7 10:44:40 2020
+2020-08-06 11:03:31,765 - INFO - Version information:
+	Time and date: Thu Aug  6 11:03:30 2020
 	Platform: Darwin-19.3.0-x86_64-i386-64bit
-	Python version: 3.7.7 (default, Mar 26 2020, 10:32:53)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+	Python version: 3.7.3 (default, Mar 27 2019, 16:54:48)  [Clang 4.0.1 (tags/RELEASE_401/final)]
 	phydms version: 2.4.0
 	Bio version: 1.77
 	cython version: 0.29.19
@@ -21,7 +21,7 @@
 	weblogolib version: 3.5.0
 	PyPDF2 version: 1.26.0
 
-2020-07-07 10:44:40,905 - INFO - Parsed the following arguments:
+2020-08-06 11:03:31,766 - INFO - Parsed the following arguments:
 	alignment = results/RBD.fasta
 	tree = phydms_comprehensive/RAxML_tree.newick
 	model = YNGKP_M0
@@ -50,67 +50,67 @@
 	omega_random_effects_likelihood = False
 	REL_ncats = 50
 
-2020-07-07 10:44:40,905 - INFO - Random number seed: 1
+2020-08-06 11:03:31,766 - INFO - Random number seed: 1
 
-2020-07-07 10:44:40,905 - INFO - Reading alignment from results/RBD.fasta
-2020-07-07 10:44:40,933 - INFO - Read 9 aligned sequences from results/RBD.fasta, each consisting of 201 codons.
+2020-08-06 11:03:31,766 - INFO - Reading alignment from results/RBD.fasta
+2020-08-06 11:03:31,830 - INFO - Read 23 aligned sequences from results/RBD.fasta, each consisting of 201 codons.
 
-2020-07-07 10:44:40,933 - INFO - Codon substitution model with be M0 version of YNGKP (Yang, Nielsen, Goldman, & Pederson. Genetics. 155:431-449).
-2020-07-07 10:44:40,941 - INFO - Reading tree from phydms_comprehensive/RAxML_tree.newick
-2020-07-07 10:44:40,941 - INFO - Tree has 9 tips.
-2020-07-07 10:44:40,942 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
+2020-08-06 11:03:31,830 - INFO - Codon substitution model with be M0 version of YNGKP (Yang, Nielsen, Goldman, & Pederson. Genetics. 155:431-449).
+2020-08-06 11:03:31,837 - INFO - Reading tree from phydms_comprehensive/RAxML_tree.newick
+2020-08-06 11:03:31,838 - INFO - Tree has 23 tips.
+2020-08-06 11:03:31,840 - INFO - Adjusted 1 branch lengths up to minbrlen 1e-06
 
-2020-07-07 10:44:40,942 - INFO - Initializing TreeLikelihood..
-2020-07-07 10:44:41,130 - INFO - TreeLikelihood initialized.
-2020-07-07 10:44:41,130 - INFO - Maximizing log likelihood (initially -3386.54).
-2020-07-07 10:44:41,130 - INFO - Branch lengths will be optimized individually.
-2020-07-07 10:44:48,537 - INFO - Maximization complete:
-	Step 1: optimized parameters, loglik went from -3386.54 to -3031.46 (18 iterations, 28 function evals)
-	Step 2: optimized branches, loglik went from -3031.46 to -3030.49 (14 iterations, 16 function evals)
-	Step 3: optimized parameters, loglik went from -3030.49 to -3030.49 (2 iterations, 5 function evals)
-2020-07-07 10:44:48,537 - INFO - Optimized log likelihood is -3030.49.
-2020-07-07 10:44:48,537 - INFO - Writing log likelihood to phydms_comprehensive/YNGKP_M0_loglikelihood.txt
-2020-07-07 10:44:48,537 - INFO - Model parameters after optimization:
-	kappa = 1.63124
-	omega = 0.0565215
-	phi0A = 0.263253
-	phi0C = 0.131889
-	phi0G = 0.272712
-	phi1A = 0.33209
-	phi1C = 0.251693
-	phi1G = 0.175558
-	phi2A = 0.26229
-	phi2C = 0.162366
-	phi2G = 0.104536
-2020-07-07 10:44:48,538 - INFO - Writing model parameters to phydms_comprehensive/YNGKP_M0_modelparams.txt
-2020-07-07 10:44:48,538 - INFO - Writing the optimized tree to phydms_comprehensive/YNGKP_M0_tree.newick
+2020-08-06 11:03:31,840 - INFO - Initializing TreeLikelihood..
+2020-08-06 11:03:32,252 - INFO - TreeLikelihood initialized.
+2020-08-06 11:03:32,252 - INFO - Maximizing log likelihood (initially -3926.28).
+2020-08-06 11:03:32,252 - INFO - Branch lengths will be optimized individually.
+2020-08-06 11:04:20,039 - INFO - Maximization complete:
+	Step 1: optimized parameters, loglik went from -3926.28 to -3521.69 (21 iterations, 28 function evals)
+	Step 2: optimized branches, loglik went from -3521.69 to -3519.20 (49 iterations, 55 function evals)
+	Step 3: optimized parameters, loglik went from -3519.20 to -3519.19 (2 iterations, 5 function evals)
+2020-08-06 11:04:20,040 - INFO - Optimized log likelihood is -3519.19.
+2020-08-06 11:04:20,040 - INFO - Writing log likelihood to phydms_comprehensive/YNGKP_M0_loglikelihood.txt
+2020-08-06 11:04:20,041 - INFO - Model parameters after optimization:
+	kappa = 1.57139
+	omega = 0.0634833
+	phi0A = 0.266641
+	phi0C = 0.126952
+	phi0G = 0.271571
+	phi1A = 0.331541
+	phi1C = 0.254726
+	phi1G = 0.175646
+	phi2A = 0.255118
+	phi2C = 0.163723
+	phi2G = 0.111148
+2020-08-06 11:04:20,041 - INFO - Writing model parameters to phydms_comprehensive/YNGKP_M0_modelparams.txt
+2020-08-06 11:04:20,041 - INFO - Writing the optimized tree to phydms_comprehensive/YNGKP_M0_tree.newick
 
-2020-07-07 10:44:48,539 - INFO - 
+2020-08-06 11:04:20,042 - INFO - 
 Fitting a different omega to each site to detect diversifying selection.
-2020-07-07 10:44:48,539 - INFO - Will fit different synonymous rate for each site.
-2020-07-07 10:44:48,539 - INFO - Fitting with 1 CPUs...
-2020-07-07 10:45:24,579 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
+2020-08-06 11:04:20,042 - INFO - Will fit different synonymous rate for each site.
+2020-08-06 11:04:20,042 - INFO - Fitting with 1 CPUs...
+2020-08-06 11:05:39,956 - WARNING - /Users/skhilton/miniconda3/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
   pvalues, 1)
 
-2020-07-07 10:45:24,580 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
+2020-08-06 11:05:39,958 - WARNING - /Users/skhilton/miniconda3/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
   qvalues = scipy.minimum(qvalues, qvalues_sign)
 
-2020-07-07 10:45:24,580 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
+2020-08-06 11:05:39,958 - WARNING - /Users/skhilton/miniconda3/bin/phydms:482: DeprecationWarning: scipy.where is deprecated and will be removed in SciPy 2.0.0, use numpy.where instead
   pvalues, 1)
 
-2020-07-07 10:45:24,580 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
+2020-08-06 11:05:39,959 - WARNING - /Users/skhilton/miniconda3/bin/phydms:485: DeprecationWarning: scipy.minimum is deprecated and will be removed in SciPy 2.0.0, use numpy.minimum instead
   qvalues = scipy.minimum(qvalues, qvalues_sign)
 
-2020-07-07 10:45:24,580 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:486: DeprecationWarning: scipy.argsort is deprecated and will be removed in SciPy 2.0.0, use numpy.argsort instead
+2020-08-06 11:05:39,959 - WARNING - /Users/skhilton/miniconda3/bin/phydms:486: DeprecationWarning: scipy.argsort is deprecated and will be removed in SciPy 2.0.0, use numpy.argsort instead
   sortindex = scipy.argsort(qvalues)
 
-2020-07-07 10:45:24,581 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:487: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
+2020-08-06 11:05:39,959 - WARNING - /Users/skhilton/miniconda3/bin/phydms:487: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
   qvalues = scipy.take(qvalues, sortindex)
 
-2020-07-07 10:45:24,581 - WARNING - /Users/skhilton/miniconda3/envs/phydms/bin/phydms:488: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
+2020-08-06 11:05:39,959 - WARNING - /Users/skhilton/miniconda3/bin/phydms:488: DeprecationWarning: scipy.take is deprecated and will be removed in SciPy 2.0.0, use numpy.take instead
   omega_strs = scipy.take(omega_strs, sortindex)
 
-2020-07-07 10:45:24,581 - INFO - Completed fitting the site-specific omega values.
-2020-07-07 10:45:24,582 - INFO - Writing results to phydms_comprehensive/YNGKP_M0_omegabysite.txt
+2020-08-06 11:05:39,960 - INFO - Completed fitting the site-specific omega values.
+2020-08-06 11:05:39,960 - INFO - Writing results to phydms_comprehensive/YNGKP_M0_omegabysite.txt
 
-2020-07-07 10:45:24,582 - INFO - Successful completion of phydms
+2020-08-06 11:05:39,960 - INFO - Successful completion of phydms

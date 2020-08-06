@@ -1,12 +1,12 @@
 | Model                          | deltaAIC | LogLikelihood | nParams | ParamValues                                              |
 |--------------------------------|----------|---------------|---------|----------------------------------------------------------|
-| ExpCM_expr_gammaomega          | 0.00     | -2524.39      | 7       | alpha_omega=0.37, beta=1.58, beta_omega=0.85, kappa=2.31 |
-| ExpCM_expr                     | 138.08   | -2594.43      | 6       | beta=1.49, kappa=1.76, omega=0.23                        |
-| ExpCM_bind_gammaomega          | 235.62   | -2642.20      | 7       | alpha_omega=0.33, beta=1.78, beta_omega=0.98, kappa=2.16 |
-| ExpCM_bind                     | 369.86   | -2710.32      | 6       | beta=2.03, kappa=1.78, omega=0.19                        |
-| YNGKP_M5                       | 796.22   | -2917.50      | 12      | alpha_omega=0.30, beta_omega=2.91, kappa=1.77            |
-| averaged_ExpCM_expr_gammaomega | 824.60   | -2936.69      | 7       | alpha_omega=0.30, beta=1.16, beta_omega=2.07, kappa=1.91 |
-| averaged_ExpCM_bind_gammaomega | 834.88   | -2941.83      | 7       | alpha_omega=0.30, beta=0.00, beta_omega=2.00, kappa=1.94 |
-| averaged_ExpCM_expr            | 1011.40  | -3031.09      | 6       | beta=1.60, kappa=1.78, omega=0.10                        |
-| YNGKP_M0                       | 1020.20  | -3030.49      | 11      | kappa=1.63, omega=0.06                                   |
-| averaged_ExpCM_bind            | 1030.98  | -3040.88      | 6       | beta=0.00, kappa=1.81, omega=0.10                        |
+| ExpCM_expr_gammaomega          | 0.00     | -2956.51      | 7       | alpha_omega=0.40, beta=1.54, beta_omega=0.86, kappa=2.13 |
+| ExpCM_expr                     | 167.06   | -3041.04      | 6       | beta=1.49, kappa=1.71, omega=0.26                        |
+| ExpCM_bind_gammaomega          | 248.82   | -3080.92      | 7       | alpha_omega=0.35, beta=1.68, beta_omega=0.97, kappa=2.01 |
+| ExpCM_bind                     | 429.76   | -3172.39      | 6       | beta=1.95, kappa=1.73, omega=0.22                        |
+| YNGKP_M5                       | 834.80   | -3368.91      | 12      | alpha_omega=0.30, beta_omega=2.03, kappa=1.74            |
+| averaged_ExpCM_expr_gammaomega | 856.18   | -3384.60      | 7       | alpha_omega=0.30, beta=1.11, beta_omega=1.28, kappa=1.90 |
+| averaged_ExpCM_bind_gammaomega | 866.48   | -3389.75      | 7       | alpha_omega=0.30, beta=0.00, beta_omega=1.33, kappa=1.92 |
+| averaged_ExpCM_expr            | 1104.86  | -3509.94      | 6       | beta=1.55, kappa=1.72, omega=0.11                        |
+| averaged_ExpCM_bind            | 1124.80  | -3519.91      | 6       | beta=0.00, kappa=1.76, omega=0.11                        |
+| YNGKP_M0                       | 1133.36  | -3519.19      | 11      | kappa=1.57, omega=0.06                                   |

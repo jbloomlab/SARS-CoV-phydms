@@ -25,9 +25,9 @@ Akifumi S. Tanabe (NRIFS)
 Charlie Taylor    (UF)
 
 
-Alignment has 254 distinct alignment patterns
+Alignment has 283 distinct alignment patterns
 
-Proportion of gaps and completely undetermined characters in this alignment: 0.66%
+Proportion of gaps and completely undetermined characters in this alignment: 0.56%
 
 RAxML rapid hill-climbing mode
 
@@ -44,7 +44,7 @@ Likelihood of final tree will be evaluated and optimized under GAMMA
 GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Partition: 0
-Alignment Patterns: 254
+Alignment Patterns: 283
 Name: No Name Provided
 DataType: DNA
 Substitution Matrix: GTR
@@ -58,22 +58,22 @@ raxmlHPC -s results/RBD.fasta -n RBD -m GTRCAT -p1 -T 2
 
 
 Partition: 0 with name: No Name Provided
-Base frequencies: 0.273 0.193 0.186 0.349 
+Base frequencies: 0.272 0.193 0.187 0.348 
 
-Inference[0]: Time 0.191108 CAT-based likelihood -2667.993792, best rearrangement setting 5
+Inference[0]: Time 0.589384 CAT-based likelihood -3145.194422, best rearrangement setting 5
 
 
 Conducting final model optimizations on all 1 trees under GAMMA-based models ....
 
-Inference[0] final GAMMA-based Likelihood: -3206.217336 tree written to file /Users/skhilton/Desktop/SARS-phydms/RAxML_result.RBD
+Inference[0] final GAMMA-based Likelihood: -3685.788565 tree written to file /Users/skhilton/Desktop/SARS-phydms/RAxML_result.RBD
 
 
-Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3206.217336 .... 
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3685.788565 .... 
 
-Final GAMMA-based Score of best tree -3206.217336
+Final GAMMA-based Score of best tree -3685.788238
 
 Program execution info written to /Users/skhilton/Desktop/SARS-phydms/RAxML_info.RBD
 Best-scoring ML tree written to: /Users/skhilton/Desktop/SARS-phydms/RAxML_bestTree.RBD
 
-Overall execution time: 0.358951 secs or 0.000100 hours or 0.000004 days
+Overall execution time: 1.486837 secs or 0.000413 hours or 0.000017 days
 
